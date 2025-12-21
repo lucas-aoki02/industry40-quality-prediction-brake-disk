@@ -2,7 +2,6 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-17%2F18-blue.svg)](https://www.postgresql.org/)
-[![Docker](https://img.shields.io/badge/Docker-Enabled-blue.svg)](https://www.docker.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 📌 Project Overview
@@ -20,7 +19,6 @@ The system uses real-time sensor data (Temperature, Vibration, and Pressure) to 
 | **Storage** | **PostgreSQL** | Relational database running in Docker to store production logs and ML results. |
 | **Intelligence** | **Scikit-Learn** | Machine Learning model trained to identify patterns of structural defects. |
 | **Delivery** | **FastAPI** | RESTful API that provides real-time quality predictions via JSON endpoints. |
-| **Environment** | **Docker Compose** | Full orchestration of the Python environment and the Database. |
 
 ---
 
@@ -41,7 +39,6 @@ To simulate a real factory environment, the following telemetry is collected for
 
 ### Prerequisites
 * **Visual Studio Code** (Recommended IDE)
-* **Docker Desktop** installed and running
 * **Git** for version control
 
 ### Setup Instructions
