@@ -47,5 +47,5 @@ To simulate a real factory environment, the following telemetry is collected for
 ### Setup Instructions
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/lucas-aoki02/industry40-quality-prediction-brake-disk.git](https://github.com/lucas-aoki02/industry40-quality-prediction-brake-disk.git)
+   git clone [https://github.com/lucas-aoki02/industry40-quality-prediction-brake-disk.git]
    cd industry40-quality-prediction-brake-disk
