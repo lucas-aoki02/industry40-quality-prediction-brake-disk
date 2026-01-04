@@ -1,5 +1,6 @@
 CREATE VIEW vw_quality_analysis AS
 SELECT  s.id_operator,
+		s.current_time_register AS "Current Time",
 		o.name_ AS "Operator Name",
 		s.temperature_c AS "Temperature (C°)", 
 		s.vibration_rms AS "Vibration (RMS)", 
