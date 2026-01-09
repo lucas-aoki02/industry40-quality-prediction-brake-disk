@@ -39,7 +39,7 @@ def generate_reading(start_time: datetime) -> dict:
 
 engine = db.create_engine("postgresql+psycopg2://postgres:System2024@localhost:5432/postgres")
 
-parts_per_shift = 300000  # Set how many sample parts will be collected per shift
+parts_per_shift = 300000  # Set how many sample parts will be collected per shift (300.000 parts generates a semester cumulated historic)
 
 shifts = [
     {"id": 1, "start": 6},
